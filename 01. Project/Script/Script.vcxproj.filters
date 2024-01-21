@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5fb1d9d1-7d9d-43ea-a359-73efb2208fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{fcca8f6f-f5d1-4208-a54b-8b2a186e4109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptMgr">
+      <UniqueIdentifier>{a81e4175-ff5a-4f4e-b463-42820809320a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\PlayerScript">
+      <UniqueIdentifier>{386de7ae-bf1e-4735-afc9-064ef7697b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Tile Script">
+      <UniqueIdentifier>{87a1ab6c-6722-4d36-9bf3-8e94867947a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Card Script">
+      <UniqueIdentifier>{8142b5b6-1c16-4b51-87b6-a8cb66b89a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Card Script\Card Move Script">
+      <UniqueIdentifier>{f0c01fb8-5268-49ac-a49b-9d1b33bd4e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Card Script\Card Attack Script">
+      <UniqueIdentifier>{4bf1bfb9-3f06-4fff-a0eb-3b8ceb3d9872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Card Script\Card Deffence Script">
+      <UniqueIdentifier>{0f38cb43-549e-4936-afcb-87a6aad10bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Module Script">
+      <UniqueIdentifier>{314f3ee7-7f48-4cf7-b118-2cbe439be85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Module Script\MouseCheck">
+      <UniqueIdentifier>{957954ec-309c-468b-bbce-8dbd91380523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\GameMgr Script">
+      <UniqueIdentifier>{213fef27-ec53-48fb-a4c3-1a8d19632eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e95e5319-d12b-4352-ab82-ccf7e5eef93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Mgr Script">
+      <UniqueIdentifier>{68db6666-204c-4134-8792-baee59c88bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script">
+      <UniqueIdentifier>{a01fe78d-4639-418f-b246-995d4c591193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Weapon Script">
+      <UniqueIdentifier>{b5bddcf9-dc8d-4981-a473-759fadaf08db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Weapon Script\Katana">
+      <UniqueIdentifier>{fcca2276-a829-4fa1-bd1b-85f9858b3d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Weapon Script\Sword">
+      <UniqueIdentifier>{ded20cb6-87ab-4ee7-82b3-29adc37bdba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Weapon Script\Shield">
+      <UniqueIdentifier>{6324960a-058f-45e6-a002-70802bd58e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\PlayerScript\HandScript">
+      <UniqueIdentifier>{afe1af46-96de-4ecb-8642-209545a69b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonRefBeetle Script">
+      <UniqueIdentifier>{9763ddbe-4125-4abc-811a-5b3e0e871213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonFast Script">
+      <UniqueIdentifier>{e7418762-5c7c-4c0c-b12f-01a6f01eca6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonChallenger Script">
+      <UniqueIdentifier>{8f5ae951-bbac-4be7-abfd-c12a507f748e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonCharge Script">
+      <UniqueIdentifier>{e6f28cf3-7902-46d9-9ef3-b4b9a21b90c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonCrossBow Script">
+      <UniqueIdentifier>{1978726a-a027-4f97-be28-6e5ff2eaf05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonDemonDog Script">
+      <UniqueIdentifier>{d8d7442e-31c1-4eab-ac1b-281fa3660741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Monster Script\MonIceReaper">
+      <UniqueIdentifier>{0d63d536-a59c-490f-a646-4dd3ac05dbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script">
+      <UniqueIdentifier>{c226b2b4-e49b-4306-9451-2dc82242dff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\PlayerHP Script">
+      <UniqueIdentifier>{e5bc6b19-c5bf-4b77-bee8-a7f77cd7c555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\TurnEndBtn Script">
+      <UniqueIdentifier>{f562b637-4c02-41c6-a788-cef0afaa80d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Module Script\Number Script">
+      <UniqueIdentifier>{9563a500-5c08-45b9-b468-234a40741fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\BigCost Script">
+      <UniqueIdentifier>{19138815-ec56-4a69-8c84-2a48a9e838cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\DrawPile Script">
+      <UniqueIdentifier>{6c12f738-85e9-4cc5-b427-aaf6bdbfa09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\DrawHandCnt Script">
+      <UniqueIdentifier>{e883834f-a587-4d74-ad0f-73c86ebe80cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\HandCardLimit Script">
+      <UniqueIdentifier>{250ef0e4-2732-4721-b8b4-38d195f4b023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ExhasusPile Script">
+      <UniqueIdentifier>{4bfd8186-9ed5-48a7-9580-7129b27eb088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\DiscardPile Script">
+      <UniqueIdentifier>{96f4f143-4afb-443b-84e1-73ea3ce26516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Item Script">
+      <UniqueIdentifier>{e33116fc-625a-49ca-9b09-76d6ef61162f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ItemCard Script">
+      <UniqueIdentifier>{10819a14-b47b-4a75-8c13-02004f47f0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\Slot Script">
+      <UniqueIdentifier>{f621ea4e-de3f-4ce4-9cbb-0677dc175924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\Slot Script\RightWaponSlot Script">
+      <UniqueIdentifier>{c216bc03-96e1-4c26-bd67-326756707099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\Slot Script\LeftWaponSlot Script">
+      <UniqueIdentifier>{52051bc0-cf6c-4280-b10a-848dd219a5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\Slot Script\FieldSlot Script">
+      <UniqueIdentifier>{505d7a15-2ca5-4927-8549-88b77ad5282a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\Slot Script\BagSlot Script">
+      <UniqueIdentifier>{bce601f4-fa49-4fb6-99fb-87eaffb66b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Item Script\HPPotion Script">
+      <UniqueIdentifier>{7fd37a05-e231-4dbe-a3d5-9657176eadc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Person Script">
+      <UniqueIdentifier>{dfb5ed31-b259-4b8f-a9ef-b6a01acc0dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Effect Script">
+      <UniqueIdentifier>{116d7a37-aeb7-4a8b-81d4-f7cd5e918596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Effect Script\Hit Effect">
+      <UniqueIdentifier>{b940a3d7-bea8-480e-8e15-09e876773ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Effect Script\Attack Effect">
+      <UniqueIdentifier>{e532a724-1ff3-46cb-8e40-f82cf9b3575d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Particle Script">
+      <UniqueIdentifier>{add76b59-bc82-48c1-ad14-b006e9905ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\StartBtn Script">
+      <UniqueIdentifier>{bc69e9c1-6d8b-4474-a9be-d1e17ea14ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Effect Script\Blood Effect">
+      <UniqueIdentifier>{16668420-1974-431c-b268-fae16b984ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script">
+      <UniqueIdentifier>{ce36dda1-0e4a-406e-8ea0-02a822324191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script\MonsterHPBar Script">
+      <UniqueIdentifier>{14ae6f71-6e8e-47bd-a149-34c7c6acd148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script\PlayerHPBar Script">
+      <UniqueIdentifier>{c58752dc-74e8-46fa-b9a7-957d5e457872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script\ShieldNum Script">
+      <UniqueIdentifier>{84b197b3-81fa-446a-a335-184ec448e452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script\PlayerShield Script">
+      <UniqueIdentifier>{8321e1e7-ad8d-403d-a4a0-9fef3b8eb6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ActorUI Script\AttackNum Script">
+      <UniqueIdentifier>{3d4fac49-1144-47f0-8f00-03e5c93ff54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\CardNum Script">
+      <UniqueIdentifier>{ae96ae0d-813d-4c77-9ef7-c560d9d38e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\CardNum Script\CardAttNum Script">
+      <UniqueIdentifier>{6ef73e48-2009-4d7e-8716-ded2cef79704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\CardNum Script\CardDefNum Script">
+      <UniqueIdentifier>{acfce1bf-9bde-4713-a276-1ffd2f087a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\CardNum Script\CardCostNum Script">
+      <UniqueIdentifier>{576c3ffe-4513-4027-9355-bbba201f47aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\ItemCardNum Script">
+      <UniqueIdentifier>{11b4721e-65c7-452d-b2ce-3ecb9aa44f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script">
+      <UniqueIdentifier>{ef92d647-6e08-44f7-86c2-6f44981eeb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\Level1">
+      <UniqueIdentifier>{a61bf670-13af-4470-8022-76abf938d4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\Level0">
+      <UniqueIdentifier>{cb2323cd-6e35-4c0a-a5aa-4428f14fc9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Sound Script">
+      <UniqueIdentifier>{a99734ec-4d01-433a-9833-fda2d8df66e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Sound Script\MainSound Script">
+      <UniqueIdentifier>{ae14dcdf-9a43-4ab6-95af-151ab64fde37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Sound Script\ArenaSound Script">
+      <UniqueIdentifier>{50a8fc5b-e0ff-48b3-8fd7-ea90c849fc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Effect Script\UnderAttack Effect">
+      <UniqueIdentifier>{fa28ceab-8ae7-4be2-b3c2-5d3da3909dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_1">
+      <UniqueIdentifier>{e421528d-18f1-4d96-befb-02977d691012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_2">
+      <UniqueIdentifier>{edc24749-ab47-4c22-ae31-34bcba7c0eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_3">
+      <UniqueIdentifier>{99c16d75-c026-4a48-917d-b917fac008c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_4">
+      <UniqueIdentifier>{224626a2-12d9-4858-8ab3-d219a2ae8c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_5">
+      <UniqueIdentifier>{d804936e-9e19-402c-b9b5-d1696c602823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\MonsterSpawn Script\TLevel_0">
+      <UniqueIdentifier>{c0e05f3d-6d49-42a4-84ce-c7593e259263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\LevelChanger Script">
+      <UniqueIdentifier>{f821e4e3-f582-4515-a57a-fb795810b4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\LevelChanger Script\Level_0">
+      <UniqueIdentifier>{f7056b8c-d64d-43ab-a051-2052b980efcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\LevelChanger Script\Level_1">
+      <UniqueIdentifier>{1372ec5a-6302-458c-a74f-21c96fd7e816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Sound Script\EndingSound Script">
+      <UniqueIdentifier>{22bda4bd-b56a-475b-8698-c910cb293ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI Script\WinLogo Script">
+      <UniqueIdentifier>{24e0272d-be7a-4ecd-a3b2-9134dff85c58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Scripts\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileScript.h">
+      <Filter>Scripts\Tile Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardScript.h">
+      <Filter>Scripts\Card Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardMoveScript.h">
+      <Filter>Scripts\Card Script\Card Move Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardAttackScript.h">
+      <Filter>Scripts\Card Script\Card Attack Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardDeffenceScript.h">
+      <Filter>Scripts\Card Script\Card Deffence Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseCheckScript.h">
+      <Filter>Scripts\Module Script\MouseCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMgrScript.h">
+      <Filter>Scripts\GameMgr Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Scriptdefine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardMgrScript.h">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMgrScript.h">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Scriptstruct.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Scripts\Monster Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaponScript.h">
+      <Filter>Scripts\Weapon Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CNormalKatanaScript.h">
+      <Filter>Scripts\Weapon Script\Katana</Filter>
+    </ClInclude>
+    <ClInclude Include="COldSwordScript.h">
+      <Filter>Scripts\Weapon Script\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="COldShieldScript.h">
+      <Filter>Scripts\Weapon Script\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHandScript.h">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerLeftHandScript.h">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRightHandScript.h">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRefBeetleScript.h">
+      <Filter>Scripts\Monster Script\MonRefBeetle Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CFastScript.h">
+      <Filter>Scripts\Monster Script\MonFast Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFunc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemonDogScript.h">
+      <Filter>Scripts\Monster Script\MonDemonDog Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargeScript.h">
+      <Filter>Scripts\Monster Script\MonCharge Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CChallengerScript.h">
+      <Filter>Scripts\Monster Script\MonChallenger Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrossBowScript.h">
+      <Filter>Scripts\Monster Script\MonCrossBow Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CIceReaperScript.h">
+      <Filter>Scripts\Monster Script\MonIceReaper</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIScript.h">
+      <Filter>Scripts\UI Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgrScript.h">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHPScript.h">
+      <Filter>Scripts\UI Script\PlayerHP Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTurnEndBtnScript.h">
+      <Filter>Scripts\UI Script\TurnEndBtn Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CNumberScript.h">
+      <Filter>Scripts\Module Script\Number Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigCostScript.h">
+      <Filter>Scripts\UI Script\BigCost Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawPileScript.h">
+      <Filter>Scripts\UI Script\DrawPile Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawHandCntScript.h">
+      <Filter>Scripts\UI Script\DrawHandCnt Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandCardLimitScript.h">
+      <Filter>Scripts\UI Script\HandCardLimit Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CExhasusPileScript.h">
+      <Filter>Scripts\UI Script\ExhasusPile Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiscardPileScript.h">
+      <Filter>Scripts\UI Script\DiscardPile Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemCardScript.h">
+      <Filter>Scripts\ItemCard Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlotScript.h">
+      <Filter>Scripts\UI Script\Slot Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CLeftWaponSlotScript.h">
+      <Filter>Scripts\UI Script\Slot Script\LeftWaponSlot Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CRightWaponSlotScript.h">
+      <Filter>Scripts\UI Script\Slot Script\RightWaponSlot Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagSlot0Script.h">
+      <Filter>Scripts\UI Script\Slot Script\BagSlot Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagSlot1Script.h">
+      <Filter>Scripts\UI Script\Slot Script\BagSlot Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPPotionScript.h">
+      <Filter>Scripts\Item Script\HPPotion Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CPersonFBase0Script.h">
+      <Filter>Scripts\Person Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitEffectScript.h">
+      <Filter>Scripts\Effect Script\Hit Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CstdAttackEffScript.h">
+      <Filter>Scripts\Effect Script\Attack Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CstdParticleScript.h">
+      <Filter>Scripts\Particle Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartBtnScript.h">
+      <Filter>Scripts\UI Script\StartBtn Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBloodEffectScript.h">
+      <Filter>Scripts\Effect Script\Blood Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CActMonHPBarScript.h">
+      <Filter>Scripts\UI Script\ActorUI Script\MonsterHPBar Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHPBarScript.h">
+      <Filter>Scripts\UI Script\ActorUI Script\PlayerHPBar Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CShieldNumScript.h">
+      <Filter>Scripts\UI Script\ActorUI Script\ShieldNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerShieldScript.h">
+      <Filter>Scripts\UI Script\ActorUI Script\PlayerShield Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackNumScript.h">
+      <Filter>Scripts\UI Script\ActorUI Script\AttackNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardCostNumScript.h">
+      <Filter>Scripts\UI Script\CardNum Script\CardCostNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardDefNumScript.h">
+      <Filter>Scripts\UI Script\CardNum Script\CardDefNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardAttNumScript.h">
+      <Filter>Scripts\UI Script\CardNum Script\CardAttNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CICardAttNumScript.h">
+      <Filter>Scripts\UI Script\ItemCardNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CICardDefNumScript.h">
+      <Filter>Scripts\UI Script\ItemCardNum Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CLv1MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="CLv0MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\Level0</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainBGMScript.h">
+      <Filter>Scripts\Sound Script\MainSound Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CArenaBGMScript.h">
+      <Filter>Scripts\Sound Script\ArenaSound Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnderAttackScript.h">
+      <Filter>Scripts\Effect Script\UnderAttack Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv1MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_1</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv2MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_2</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv3MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_3</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv4MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_4</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv5MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_5</Filter>
+    </ClInclude>
+    <ClInclude Include="CTLv0MonSpawnScript.h">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_0</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelChangerScript.h">
+      <Filter>Scripts\LevelChanger Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvChanger0Script.h">
+      <Filter>Scripts\LevelChanger Script\Level_0</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvChanger1Script.h">
+      <Filter>Scripts\LevelChanger Script\Level_1</Filter>
+    </ClInclude>
+    <ClInclude Include="CEndingSoundScript.h">
+      <Filter>Scripts\Sound Script\EndingSound Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinLogoScript.h">
+      <Filter>Scripts\UI Script\WinLogo Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Scripts\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileScript.cpp">
+      <Filter>Scripts\Tile Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardScript.cpp">
+      <Filter>Scripts\Card Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardMoveScript.cpp">
+      <Filter>Scripts\Card Script\Card Move Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardAttackScript.cpp">
+      <Filter>Scripts\Card Script\Card Attack Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardDeffenceScript.cpp">
+      <Filter>Scripts\Card Script\Card Deffence Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseCheckScript.cpp">
+      <Filter>Scripts\Module Script\MouseCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMgrScript.cpp">
+      <Filter>Scripts\GameMgr Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardMgrScript.cpp">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMgrScript.cpp">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Scripts\Monster Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaponScript.cpp">
+      <Filter>Scripts\Weapon Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CNormalKatanaScript.cpp">
+      <Filter>Scripts\Weapon Script\Katana</Filter>
+    </ClCompile>
+    <ClCompile Include="COldSwordScript.cpp">
+      <Filter>Scripts\Weapon Script\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="COldShieldScript.cpp">
+      <Filter>Scripts\Weapon Script\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHandScript.cpp">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerLeftHandScript.cpp">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRightHandScript.cpp">
+      <Filter>Scripts\PlayerScript\HandScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRefBeetleScript.cpp">
+      <Filter>Scripts\Monster Script\MonRefBeetle Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CFastScript.cpp">
+      <Filter>Scripts\Monster Script\MonFast Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunc.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemonDogScript.cpp">
+      <Filter>Scripts\Monster Script\MonDemonDog Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargeScript.cpp">
+      <Filter>Scripts\Monster Script\MonCharge Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CChallengerScript.cpp">
+      <Filter>Scripts\Monster Script\MonChallenger Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrossBowScript.cpp">
+      <Filter>Scripts\Monster Script\MonCrossBow Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CIceReaperScript.cpp">
+      <Filter>Scripts\Monster Script\MonIceReaper</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIScript.cpp">
+      <Filter>Scripts\UI Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgrScript.cpp">
+      <Filter>Scripts\Mgr Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHPScript.cpp">
+      <Filter>Scripts\UI Script\PlayerHP Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTurnEndBtnScript.cpp">
+      <Filter>Scripts\UI Script\TurnEndBtn Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CNumberScript.cpp">
+      <Filter>Scripts\Module Script\Number Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigCostScript.cpp">
+      <Filter>Scripts\UI Script\BigCost Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawPileScript.cpp">
+      <Filter>Scripts\UI Script\DrawPile Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawHandCntScript.cpp">
+      <Filter>Scripts\UI Script\DrawHandCnt Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CHandCardLimitScript.cpp">
+      <Filter>Scripts\UI Script\HandCardLimit Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CExhasusPileScript.cpp">
+      <Filter>Scripts\UI Script\ExhasusPile Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiscardPileScript.cpp">
+      <Filter>Scripts\UI Script\DiscardPile Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemCardScript.cpp">
+      <Filter>Scripts\ItemCard Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlotScript.cpp">
+      <Filter>Scripts\UI Script\Slot Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CLeftWaponSlotScript.cpp">
+      <Filter>Scripts\UI Script\Slot Script\LeftWaponSlot Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CRightWaponSlotScript.cpp">
+      <Filter>Scripts\UI Script\Slot Script\RightWaponSlot Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagSlot0Script.cpp">
+      <Filter>Scripts\UI Script\Slot Script\BagSlot Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagSlot1Script.cpp">
+      <Filter>Scripts\UI Script\Slot Script\BagSlot Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPPotionScript.cpp">
+      <Filter>Scripts\Item Script\HPPotion Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CPersonFBase0Script.cpp">
+      <Filter>Scripts\Person Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitEffectScript.cpp">
+      <Filter>Scripts\Effect Script\Hit Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CstdAttackEffScript.cpp">
+      <Filter>Scripts\Effect Script\Attack Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CstdParticleScript.cpp">
+      <Filter>Scripts\Particle Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartBtnScript.cpp">
+      <Filter>Scripts\UI Script\StartBtn Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBloodEffectScript.cpp">
+      <Filter>Scripts\Effect Script\Blood Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CActMonHPBarScript.cpp">
+      <Filter>Scripts\UI Script\ActorUI Script\MonsterHPBar Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHPBarScript.cpp">
+      <Filter>Scripts\UI Script\ActorUI Script\PlayerHPBar Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CShieldNumScript.cpp">
+      <Filter>Scripts\UI Script\ActorUI Script\ShieldNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerShieldScript.cpp">
+      <Filter>Scripts\UI Script\ActorUI Script\PlayerShield Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackNumScript.cpp">
+      <Filter>Scripts\UI Script\ActorUI Script\AttackNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardCostNumScript.cpp">
+      <Filter>Scripts\UI Script\CardNum Script\CardCostNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardDefNumScript.cpp">
+      <Filter>Scripts\UI Script\CardNum Script\CardDefNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardAttNumScript.cpp">
+      <Filter>Scripts\UI Script\CardNum Script\CardAttNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CICardAttNumScript.cpp">
+      <Filter>Scripts\UI Script\ItemCardNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CICardDefNumScript.cpp">
+      <Filter>Scripts\UI Script\ItemCardNum Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CLv1MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="CLv0MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\Level0</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainBGMScript.cpp">
+      <Filter>Scripts\Sound Script\MainSound Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CArenaBGMScript.cpp">
+      <Filter>Scripts\Sound Script\ArenaSound Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnderAttackScript.cpp">
+      <Filter>Scripts\Effect Script\UnderAttack Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv1MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_1</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv2MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_2</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv3MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_3</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv4MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_4</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv5MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_5</Filter>
+    </ClCompile>
+    <ClCompile Include="CTLv0MonSpawnScript.cpp">
+      <Filter>Scripts\MonsterSpawn Script\TLevel_0</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelChangerScript.cpp">
+      <Filter>Scripts\LevelChanger Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CLvChanger0Script.cpp">
+      <Filter>Scripts\LevelChanger Script\Level_0</Filter>
+    </ClCompile>
+    <ClCompile Include="CLvChanger1Script.cpp">
+      <Filter>Scripts\LevelChanger Script\Level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="CEndingSoundScript.cpp">
+      <Filter>Scripts\Sound Script\EndingSound Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinLogoScript.cpp">
+      <Filter>Scripts\UI Script\WinLogo Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
