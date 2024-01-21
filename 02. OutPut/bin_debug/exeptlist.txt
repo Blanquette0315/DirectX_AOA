@@ -1,0 +1,10 @@
+CScriptMgr.h
+CScriptMgr.cpp
+Scriptdefine.h
+Scriptstruct.h
+CWaponScript.h
+CMonsterScript.h
+ScriptFunc.h
+CUIScript.h
+CSlotScript.h
+CLevelChangerScript.h
